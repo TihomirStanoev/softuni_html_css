@@ -1,0 +1,15 @@
+.imgs {
+    width: 150px;
+    padding: 5px;
+    border: 2px solid orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+#imgages {
+    width: fit-content;
+    border: 2px solid orange;
+    padding: 3px;
+}
