@@ -1,0 +1,18 @@
+.author-name {
+    font-weight: bold;
+    
+}
+
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style-type: square;
+}
+
+footer {
+    font-size: small;
+}
