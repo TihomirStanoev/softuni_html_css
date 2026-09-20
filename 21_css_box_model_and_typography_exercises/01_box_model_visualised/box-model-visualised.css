@@ -1,0 +1,38 @@
+div {
+  border: 1px dashed #5b5b5b;
+  padding: 15px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.padding,
+.border,
+.margin {
+  padding-top: 5px;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.content {
+  background-color: #a3d2e2;
+  text-align: center;
+  height: 50px;
+}
+
+.padding {
+  background-color: #85eb85;
+  width: 350px;
+  height: 100px;
+}
+
+.border {
+  background-color: #ffe8c6;
+  width: 400px;
+  height: 150px;
+}
+
+.margin {
+  background-color: #ff966f;
+  width: 450px;
+  height: 200px;
+}

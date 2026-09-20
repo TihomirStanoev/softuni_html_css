@@ -1,0 +1,55 @@
+html {
+    background-color: #ebebeb;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    font-size: 14px;
+
+}
+
+
+.card img,
+.card {
+    width: 350px;
+    
+}
+
+
+.card {
+    height: 600px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #777777;
+    overflow: hidden;
+    justify-content: center;
+    margin: 20px auto;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.card article {
+    margin: 15px;
+} 
+
+
+.card h2 {
+    text-align: center;
+}
+
+.card a {
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    color: black;
+    font-style: italic;
+}
+
+.card .site-url {
+    font-weight: bold;
+
+}
+
+.card footer {
+    margin-top: auto;
+    padding: 30px;
+}

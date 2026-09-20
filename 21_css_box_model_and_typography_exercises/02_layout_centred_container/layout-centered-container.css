@@ -1,0 +1,21 @@
+html {
+    border: 3px solid green;
+}
+
+.container {
+    border: 3px solid blue;
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+footer,
+main,
+header {
+    border: 2px solid black;
+    padding: 50px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
