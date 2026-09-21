@@ -1,0 +1,30 @@
+html {
+  font-family: "Segoe UI", Open Sans, Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.post {
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 30px;
+  width: 50%;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 5px #c5c5c5;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.post h3 {
+  margin: 0px;
+}
+
+.post .desciption {
+  font-size: large;
+}
+
+.text-italic {
+  font-style: italic;
+  font-size: small;
+}

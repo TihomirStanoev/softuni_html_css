@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+.icons span {
+  font-weight: bold;
+  padding: 20px;
+  display: block;
+}
+
+.content {
+  display: inline-flex;
+  width: 60px;
+  background-color: #ebebeb;
+  height: 60px;
+  border-radius: 60px;
+}
+
+.content i {
+  margin: auto;
+  display: block;
+}

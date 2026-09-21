@@ -1,0 +1,27 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accordion {
+  border: 1px solid #d8d8d8;
+  padding: 15px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.accordion summary {
+  font-weight: bold;
+  font-size: 1.25em;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.accordion summary::before {
+  content: ">";
+  display: inline-block;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
