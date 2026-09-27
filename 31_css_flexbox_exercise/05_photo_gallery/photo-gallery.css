@@ -1,0 +1,42 @@
+body {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 72%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+  height: 580px;
+  border: 8px solid #333333;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #4e4e4e;
+  justify-content: space-between;
+}
+
+.gallery img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  align-self: center;
+  box-shadow: 0 0 12px #9b9b9b;
+}
+
+.gallery span {
+  display: flex;
+  height: 40px;
+  padding: 0 15px;
+  font-style: italic;
+  color: #9c9c9c;
+  align-items: center;
+}

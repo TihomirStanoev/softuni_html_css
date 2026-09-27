@@ -1,0 +1,85 @@
+body {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  min-width: 1200px;
+  justify-content: space-around;
+}
+
+.quote {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(179, 178, 178);
+  padding: 25px;
+}
+
+.quote i {
+  font-size: 40pt;
+}
+
+.quote span {
+  font-weight: bold;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+.horizontal .quote {
+  height: 200px;
+  width: 700px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal .quote .txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.txt p {
+  color: #a8a9a9;
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+.vertical {
+  display: flex;
+  flex-shrink: 5;
+  flex-direction: column;
+}
+
+.vertical .quote {
+  width: 350px;
+  height: 450px;
+}
+
+.horizontal .quote .imgs {
+  align-self: center;
+}
+
+.vertical .quote .imgs .img-template {
+  width: 80px;
+  height: 80px;
+}
+
+.quote .img-template {
+  background-color: green;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 12px rgb(139, 139, 139);
+  margin: 15px;
+}
