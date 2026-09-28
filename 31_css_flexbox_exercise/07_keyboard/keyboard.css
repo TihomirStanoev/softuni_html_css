@@ -1,0 +1,136 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+/* 
+46 x 32 first row
+42 x 38 std button
+94 x 38 backspace
+132 x 38 shift
+66 x 38 ctrl
+332 x 38 space
+58 x 38 - l shift
+82 x 38 caps lock
+ */
+
+
+
+.button-border {
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 3px solid #cccccc;
+    border-radius: 5px;
+}
+
+.keyboard {
+    padding: 18px;
+    box-sizing: border-box;
+    display: flex;
+    width: 830px;
+    height: 325px;
+    background-color: #dddddd;
+    border-top: 2px solid #a0a0a0;
+    border-left: 2px solid #a0a0a0;
+    border-right: 2px solid #a0a0a0;
+    border-bottom: 5px solid #a0a0a0;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backspace {
+    width: 94px;
+    height: 38px;
+    background-color: #ffffff;
+}
+
+.r-shift {
+    width: 132px;
+    height: 38px;
+    background-color: #ffffff;
+}
+
+.space {
+    width: 332px;
+    height: 38px;
+    background-color: #ffffff;
+}
+
+.l-shift {
+    width: 58px;
+    height: 38px;
+    background-color: #ffffff;
+
+}
+
+.enter-1 {
+    width: 70px;
+    height: 38px;
+    background-color: #ffffff;
+    border-bottom-right-radius: 0px;
+}
+
+.enter-2 {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: -9px;
+    width: 54px;
+    height: 47px;
+    background-color: #ffffff;
+
+}
+
+
+.caps {
+    width: 82px;
+    height: 38px;
+    background-color: #ffffff;
+}
+
+
+
+.tab {
+    width: 66px;
+    height: 38px;
+    background-color: #ffffff;
+}
+
+.win {
+    width: 65px;
+    height: 38px;
+    background-color: #ffffff;
+}
+
+.first-row {
+    width: 46px;
+    height: 32px;
+    background-color: #eeeeee;
+}
+.second-row {
+    width: 42px;
+    height: 38px;
+    background-color: #ffffff;
+}
+
+
+
+.keys {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

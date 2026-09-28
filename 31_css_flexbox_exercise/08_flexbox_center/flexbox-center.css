@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containter {
+    margin-top: 40px;
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgb(179, 179, 179);
+}
