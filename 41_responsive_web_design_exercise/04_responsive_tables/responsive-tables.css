@@ -1,0 +1,91 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #eeeeee;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+}
+
+.table-container {
+  width: 70%;
+  display: flex;
+  box-shadow: 0 0 12px #9b9a9a;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+table,
+caption {
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  caption-side: top;
+  text-align: left;
+  padding: 25px 30px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+caption h2 {
+  margin: 0;
+}
+
+tr {
+  border: 1px solid #cccccc;
+}
+
+thead {
+  background-color: #eeeeee;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px;
+}
+
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        border-bottom: 2px solid #333;
+    }
+
+    tr:last-child {
+        border-bottom: none;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        flex-basis: 45%;
+    }
+}
