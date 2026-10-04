@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="fancy-numbered-list.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Numbered</title>
+</head>
+
+<body>
+    <div class="test"></div>
+    <div class="container"></div>
+</body>
+<script>
+    let boxes = [
+        {
+            'title': 'Title of the first element',
+            'content': 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        },
+        {
+            'title': 'Title of the first element',
+            'content': 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        },
+        {
+            'title': 'Title of the first element',
+            'content': 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        },
+        {
+            'title': 'Title of the first element',
+            'content': 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        },
+        {
+            'title': 'Title of the first element',
+            'content': 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        },
+    ]
+    let c = document.querySelector('.container');
+
+    boxes.forEach((box, index) => {
+        let boxEl = document.createElement('div');
+        boxEl.className = 'box';
+
+        let leftBox = document.createElement('div');
+        leftBox.className = 'left-box';
+
+        let leftBoxH = document.createElement('h2');
+        let leftBoxP = document.createElement('p');
+
+        let rightBox = document.createElement('div');
+        rightBox.className = 'right-box';
+
+        let numberBox = document.createElement('div');
+        numberBox.className = 'number-box';
+
+        leftBoxH.textContent = box.title;
+        leftBoxP.textContent = box.content;
+        numberBox.textContent = String(index + 1).padStart(2, '0');
+
+        leftBox.appendChild(leftBoxH);
+        leftBox.appendChild(leftBoxP);
+        rightBox.appendChild(numberBox);
+        boxEl.appendChild(leftBox);
+        boxEl.appendChild(rightBox);
+
+        c.appendChild(boxEl);
+    });
+
+
+
+</script>
+
+</html>
