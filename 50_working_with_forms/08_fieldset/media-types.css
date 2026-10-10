@@ -1,0 +1,53 @@
+body {
+  padding: 1.5em;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+h2 {
+  margin-top: 2.2em;
+  margin-bottom: 0.2em;
+}
+
+pre {
+  background-color: #eeeeee;
+  padding: 2.5em;
+  border: 1px solid #cccccc;
+  border-radius: 0.5em;
+  margin: 2em;
+}
+
+fieldset {
+  border: 2px solid #cccccc;
+  width: 17%;
+}
+
+.field {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  margin: 11px 0;
+}
+
+#username,
+#password {
+  height: 1.5em;
+  border-radius: 0.4em;
+}
+
+#login {
+  width: 100%;
+  margin: 0.5em 0;
+  border-radius: 0.4em;
+  padding: 0.4em;
+}
