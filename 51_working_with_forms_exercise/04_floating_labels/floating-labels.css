@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #eeeeee;
+  font-family: sans-serif;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #fff;
+  width: 25%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form h2,
+form p {
+  margin: 0;
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+form p {
+  color: #8e8e8e;
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+}
+form label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#login-btn {
+  border: none;
+  border-radius: 6px;
+  height: 45px;
+  font-weight: bold;
+  background-color: #efefef;
+  margin-top: 25px;
+}
+
+.field {
+  position: relative;
+}
+
+#password,
+#email {
+  outline: none;
+  appearance: none;
+  border-bottom: 3px solid #dedede;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  height: 44px;
+  padding: 0;
+}
+
+.field label {
+  transition: top 400ms ease;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+#email:focus + label,
+#password:focus + label,
+#email:not(:placeholder-shown) + label,
+#password:not(:placeholder-shown) + label {
+  top: -10px;
+}
