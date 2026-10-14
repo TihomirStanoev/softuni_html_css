@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <form>
+        <h2>Contact</h2>
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" aria-describedby="name-info">
+        <p id="name-info">First and Last name is enough</p>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" aria-describedby="email-info">
+        <p id="email-info">example: john.doe@gmail.com</p>
+
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="subject" aria-describedby="subject-info">
+        <p id="subject-info">What is this about?</p>
+
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" aria-describedby="message-info" cols="20" rows="5"></textarea>
+        <p id="message-info">Let us know what you need</p>
+
+        <input type="submit" value="Send" id="send-btn">
+    </form>
+</body>
+
+</html>
