@@ -1,0 +1,157 @@
+/* Use font 'Montserrat' for the headings and font 'Inter' for the text */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap");
+
+:root {
+  --category-height: 20px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Inter";
+  color: #fff;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  background-color: #0b0b0b;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 500;
+  gap: 37px;
+}
+
+.head-wrapper {
+  background-image: url("img/movies/city-under-the-fire-bg.webp");
+  width: 95%;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 45px;
+}
+
+main {
+  width: 93%;
+}
+
+.head-wrapper h2 {
+  font-size: 3rem;
+  inline-size: 700px;
+  margin: 0;
+}
+
+.streaming-wrapper h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 5px 0;
+}
+
+.streaming-wrapper .category span {
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 3px 12px;
+  line-height: var(--category-height);
+  margin: 0 4px;
+  border-radius: calc(var(--category-height) * 2);
+  display: inline-block;
+  margin: 12px 0;
+}
+
+.head-wrapper p:nth-child(2) {
+  font-size: 1.3rem;
+  color: #cccbc9;
+  margin: 18px0;
+}
+
+.head-wrapper p:nth-child(1) {
+  font-size: 1.1rem;
+  color: #e50914;
+  font-weight: bold;
+  margin: 0;
+}
+
+.watch-now-btn {
+  margin-top: 50px;
+  background-color: #e50914;
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 8px;
+}
+
+.movie-img {
+  width: 260px;
+}
+
+.rouned {
+  border-radius: 12px;
+}
+
+.headings {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 17px 0;
+}
+
+.continue-watching {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+}
+
+.continue-watching-card {
+  display: flex;
+  width: 251px;
+  flex-direction: column;
+}
+
+.progress-bar {
+  display: flex;
+  width: 100%;
+  height: 6px;
+  border-radius: 2.5px;
+  overflow: hidden;
+}
+.backgroud {
+  background-color: #333333;
+  flex-grow: 2;
+}
+
+.progress {
+  background-color: #e50914;
+  flex-grow: 1;
+}
+
+.next-sesction {
+  margin: 50px 0;
+}
