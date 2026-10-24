@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cormorant Garamond";
+  margin: 0;
+}
+
+footer nav ul,
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 130px;
+}
+
+header nav ul {
+  gap: 30px;
+}
+
+footer,
+.btn-fill,
+.btn-non-fill,
+header nav ul li a {
+  font-family: "DM Sans", sans-serif;
+}
+
+h2 {
+  color: #203c35;
+}
+
+h3 {
+  color: #bf7257;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: #203c35;
+}
+
+header nav ul li a:hover {
+  color: #bf7257;
+}
+
+.btn-fill,
+.btn-non-fill {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 40px;
+  border-radius: 30px;
+  align-items: center;
+  color: #ffffff;
+  background-color: #203c35;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 1px solid #203c35;
+}
+
+.btn-non-fill,
+.btn-fill:hover {
+  background-color: transparent;
+  color: #203c35;
+}
+
+.btn-non-fill:hover {
+  background-color: #203c35;
+  color: #ffffff;
+}
+
+.hero-wrapper {
+  display: flex;
+  background-color: #dce6da;
+  justify-content: space-between;
+  min-height: 650px;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 100px;
+}
+
+.hero-wrapper img {
+  flex: 1;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  object-fit: cover;
+}
+
+.hero-text h2 {
+  font-size: 5.5rem;
+  margin: 0;
+}
+
+.services-wrapper article p,
+.hero-text p,
+.about-us-wrapper p {
+  font-family: "DM Sans", sans-serif;
+  color: #677773;
+}
+
+.hero-text p {
+  font-size: 1.4rem;
+  letter-spacing: 0.8px;
+  line-height: 1.8;
+  inline-size: 70%;
+}
+
+.hero-btns {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.services-wrapper {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 100px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.services-wrapper .article-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffdf8;
+  border: 1px solid #e3e3d8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  border-radius: 30px;
+  max-width: 500px;
+}
+
+.services-wrapper article h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  inline-size: 78%;
+}
+
+.services-wrapper article p {
+  font-size: 1.2rem;
+  letter-spacing: 0.3px;
+  line-height: 2;
+}
+.article-box .article-box-img {
+  max-width: 400px;
+  max-height: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.article-box .article-box-img img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-wrapper {
+  display: flex;
+  padding: 100px 120px;
+  background-color: #e7ede5;
+  gap: 60px;
+}
+
+.about-us-wrapper img {
+  border-radius: 25px;
+  align-self: baseline;
+}
+
+.about-us-wrapper h2 {
+  font-size: 4rem;
+  inline-size: 560px;
+}
+
+.about-us-wrapper p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.about-us-wrapper p span {
+  color: #36323a;
+  background-color: #bec1be;
+  padding: 4px 0px;
+}
+
+.contact-wrapper {
+  padding: 100px 80px;
+  background-color: #fffdf8;
+}
+
+.contact-wrapper h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+form {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+form input[type="email"],
+form input[type="text"],
+textarea {
+  background-color: #f8f5ee;
+  border: 1px solid #dde1d9;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  padding: 23px;
+}
+
+form input[type="email"],
+form input[type="text"] {
+  flex: 1;
+}
+textarea {
+  width: 100%;
+}
+
+footer {
+  padding: 50px 0px;
+  background-color: #203c35;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #f1f2e8;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 34px;
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #f1f2e8;
+  margin: 0;
+}
+
+footer ul li a:hover {
+  color: #adada7;
+}
+
+footer p {
+  font-weight: lighter;
+  margin: 20px;
+}

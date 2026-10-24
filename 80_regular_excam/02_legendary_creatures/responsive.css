@@ -1,0 +1,36 @@
+@media (width <= 600px) {
+  .eyebrow {
+    letter-spacing: 1.75px;
+  }
+  nav a {
+    font-size: 0.65rem;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding: 12px;
+  }
+
+  .pair,
+  .news ul,
+  .news li {
+    flex-direction: column;
+  }
+
+  .news li {
+    gap: 15px;
+  }
+
+  .news li img {
+    width: 63%;
+  }
+
+  .beast {
+    width: 100%;
+  }
+
+  .beast_info {
+    padding: 18px 10px;
+  }
+  .beast_info h3 {
+    font-size: 1.1rem;
+  }
+}
